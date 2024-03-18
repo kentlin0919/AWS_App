@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+
+    >
+
+
+    <LinearLayout
+        android:id="@+id/his"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@+id/tabLayoutMain">
+
+                <TextView
+                    android:id="@+id/his1"
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="12dp"></TextView>
+
+                <TextView
+                    android:id="@+id/his2"
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="12dp"></TextView>
+
+                <TextView
+                    android:id="@+id/his3"
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="12dp"></TextView>
+
+                <TextView
+                    android:id="@+id/his4"
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="12dp"></TextView>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:text="密碼:"
+                    android:textSize="12dp"
+                    android:gravity="center">
+                </TextView>
+                <TextView
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:text="密碼:"
+                    android:textSize="12dp"
+                    android:gravity="center">
+                </TextView>
+                <TextView
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:text="密碼:"
+                    android:textSize="12dp"
+                    android:gravity="center">
+                </TextView>
+                <TextView
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:text="密碼:"
+                    android:textSize="12dp"
+                    android:gravity="center">
+                </TextView>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
